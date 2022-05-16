@@ -1,0 +1,9 @@
+const mongoose = require('mongoose')
+
+const Produtos = mongoose.model('Produtos', {
+    name: String,
+    valor: Number,
+    categoria: String
+})
+
+module.exports = Produtos
